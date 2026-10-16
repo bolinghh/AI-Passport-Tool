@@ -1,0 +1,5 @@
+{
+  "private": true,
+  "description": "Reproducible LVGL font conversion for Passport Codex Controller",
+  "devDependencies": { "lv_font_conv": "1.5.3" }
+}

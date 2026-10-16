@@ -1,0 +1,4 @@
+module CPassport [system] {
+    header "include/passport.h"
+    export *
+}

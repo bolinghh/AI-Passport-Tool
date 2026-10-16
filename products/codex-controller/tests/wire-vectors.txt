@@ -1,0 +1,18 @@
+# v1 header: magic,version,type,length,request,stream,sequence; all integers big-endian
+a5 5a 01 01 00 00 00 00 00 00 00 00 00 00 00 00
+a5 5a 01 05 00 01 00 00 00 2a 00 00 00 2a 00 00 01
+a5 5a 01 06 00 02 00 00 00 2a 00 00 00 2a 00 00 00 01
+a5 5a 01 07 00 04 00 00 00 00 00 00 00 2a ff ff 01 02 03 04
+
+# multi-app v2 messages within the retained v1 envelope
+a5 5a 01 0a 00 02 00 00 00 00 00 00 00 00 00 00 02 0f
+a5 5a 01 0d 00 02 00 00 00 01 00 00 00 00 00 00 19 05
+a5 5a 01 0b 00 08 00 00 00 00 00 00 00 00 00 00 6b 49 d2 00 00 00 70 80
+a5 5a 01 0c 00 0f 00 00 00 00 00 00 00 00 00 00 6b 49 d2 00 00 e6 00 00 06 e6 9d ad e5 b7 9e
+a5 5a 01 0f 00 0a 00 00 00 00 00 00 00 00 00 00 00 01 00 00 05 dc 00 00 00 00
+a5 5a 01 11 00 00 00 00 00 09 00 00 00 00 00 00
+a5 5a 01 12 00 00 00 00 00 09 00 00 00 00 00 00
+
+# Local pet and fishing pages extend telemetry; all previous page IDs stay fixed.
+a5 5a 01 0e 00 04 00 00 00 00 00 00 00 00 00 00 52 c3 05 00
+a5 5a 01 0e 00 04 00 00 00 00 00 00 00 00 00 00 52 c3 06 00

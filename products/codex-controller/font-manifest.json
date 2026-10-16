@@ -1,0 +1,11 @@
+{
+  "source": "https://raw.githubusercontent.com/notofonts/noto-cjk/Sans2.004/Sans/SubsetOTF/SC/NotoSansSC-Regular.otf",
+  "license": "SIL OFL 1.1",
+  "source_sha256": "faa6c9df652116dde789d351359f3d7e5d2285a2b2a1f04a2d7244df706d5ea9",
+  "license_sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+  "generated_sha256": "4c13ade22a75b5140da11de1bbf598724107779967c875d9bc7657067a1ea977",
+  "converter": "lv_font_conv 1.5.3",
+  "size": 16,
+  "bpp": 2,
+  "codepoints": 6874
+}

@@ -1,0 +1,2060 @@
+{
+  "format": 1,
+  "snapshot_date": "2026-10-14",
+  "product_root": "products/codex-controller",
+  "source_has_git": false,
+  "firmware_sha256": "1f15a1fdd07d76de043dbc037e460e2673b86bc4d50e3338a19ca09f98bf45e9",
+  "files": {
+    ".clangd": {
+      "size": 37,
+      "sha256": "779cb0f49f3ef80e7574d8de600fd797fcb563e2a478e336d53f89a4d017d02c",
+      "mode": "0644"
+    },
+    ".github/CODE_OF_CONDUCT.md": {
+      "size": 5530,
+      "sha256": "afcd965caf0f8a1e5d201325c551c144a7a9f382e503064cac0a929a8f92370b",
+      "mode": "0644"
+    },
+    ".github/CODE_OF_CONDUCT.zh_CN.md": {
+      "size": 4184,
+      "sha256": "9cea011db3b2b8945387b47d4030398aa74db415fd4e5f3447fbaec91e28b9d8",
+      "mode": "0644"
+    },
+    ".github/CONTRIBUTING.md": {
+      "size": 4366,
+      "sha256": "8a27e6ae4a0f53edd0779bbf9dbc3aa401eee75d57fb92da9ee90413aa1cc6fb",
+      "mode": "0644"
+    },
+    ".github/CONTRIBUTING.zh_CN.md": {
+      "size": 3856,
+      "sha256": "44f94cc926d02e21d6bd9d60bca0daab946f54c657d451263d448a859b25900a",
+      "mode": "0644"
+    },
+    ".github/ISSUE_TEMPLATE/feature_request.yml": {
+      "size": 1952,
+      "sha256": "b831da102d5f67e8ac35ec98937080969c031060bb531996e843db29518a9f39",
+      "mode": "0644"
+    },
+    ".github/ISSUE_TEMPLATE/usage_question.yml": {
+      "size": 2112,
+      "sha256": "2d21a4f01a9ab570a5387e7a2dc03d526ccb0df55b3c629bc7c8e94aad2bd331",
+      "mode": "0644"
+    },
+    ".github/PULL_REQUEST_TEMPLATE.md": {
+      "size": 1506,
+      "sha256": "f0cf4e2d71e69099da0049559518199eb7ba2238cc52f40072c05f32acf8f51b",
+      "mode": "0644"
+    },
+    ".github/PULL_REQUEST_TEMPLATE.zh_CN.md": {
+      "size": 1512,
+      "sha256": "f1b3e073a9c0bba1da545433baddd851036e208d939ff763d6acddb5cebe53b0",
+      "mode": "0644"
+    },
+    ".github/SECURITY.md": {
+      "size": 2275,
+      "sha256": "bdaee155758c9d87a908bca0a0f5940c7f56fa61fe52508155f60f36fce16905",
+      "mode": "0644"
+    },
+    ".github/SECURITY.zh_CN.md": {
+      "size": 1943,
+      "sha256": "6738cad615f0526cfecfa2cf9224f022e5c68aa7cbd540bf69bd2a18003d02e0",
+      "mode": "0644"
+    },
+    ".github/SUPPORT.md": {
+      "size": 1129,
+      "sha256": "1d0c2012481c94362e130ab1d404f9edea887bd7c409eee08453bde220935da6",
+      "mode": "0644"
+    },
+    ".github/SUPPORT.zh_CN.md": {
+      "size": 1046,
+      "sha256": "76615c487be741adf73fd58638e0d25cd09855234377779277e6a437e5f761cd",
+      "mode": "0644"
+    },
+    ".github/workflows/build-firmware.yml": {
+      "size": 2184,
+      "sha256": "c32ee49f61c8a795a43653b5291282e06b21590f4b29295609291deeb59144a2",
+      "mode": "0644"
+    },
+    ".github/workflows/firmware-checks.yml": {
+      "size": 1439,
+      "sha256": "b3da54d49f229f6df591d8c1886b0eb63e037f47c75f87a447d400d7d88040e9",
+      "mode": "0644"
+    },
+    ".github/workflows/static-checks.yml": {
+      "size": 679,
+      "sha256": "d7e4a59d6ef44a1590afc0ca603e007c89045b3e567b8f4fef00937632b07644",
+      "mode": "0644"
+    },
+    ".github/workflows/sync-main.yml": {
+      "size": 1424,
+      "sha256": "3c7d52c60d4c7fca62feb1cfef570ea8ba8419609d52953bedaf25ff8f02dd01",
+      "mode": "0644"
+    },
+    ".gitignore": {
+      "size": 322,
+      "sha256": "c320346d3aecdca62e9603d52d13974d3f541485cdb36b7331efd92d738a60b1",
+      "mode": "0644"
+    },
+    "AGENTS.md": {
+      "size": 7973,
+      "sha256": "9890b0b2e01545a8d4d0ae8de1b34643c0c6ccf8685fbf416faf3344d397e31b",
+      "mode": "0644"
+    },
+    "AGENTS.zh_CN.md": {
+      "size": 7186,
+      "sha256": "c123a61bd7bbe2f8ee9393f358592c3a89a471b0a8c43bcbcdf61a5dddf123a7",
+      "mode": "0644"
+    },
+    "CLAUDE.md": {
+      "size": 458,
+      "sha256": "e2a951e1337fadd73c9df97c013adbaf904d1b13f9d3931a597e79e08e64d7c4",
+      "mode": "0644"
+    },
+    "CLAUDE.zh_CN.md": {
+      "size": 441,
+      "sha256": "fe33a1a539bf33d28602156b8994c9f05f1170ec8a2ef1c15f1cc3cb6ab423a4",
+      "mode": "0644"
+    },
+    "CMakeLists.txt": {
+      "size": 117,
+      "sha256": "9f497490cbf9b547162698e2730cbed7f863d0cd97b1c2f3fe88994e644c4b22",
+      "mode": "0644"
+    },
+    "LICENSE": {
+      "size": 1064,
+      "sha256": "0ca7f3a382d5d681ced06d6008081c1d51b05a2547c94c3350058efbe7ddb5ee",
+      "mode": "0644"
+    },
+    "assets/README.md": {
+      "size": 3502,
+      "sha256": "d0b58adfe690f3628bffcb35e61681a6a2ff71c8645f27952ebe2006d6fd245b",
+      "mode": "0644"
+    },
+    "assets/README.zh_CN.md": {
+      "size": 3314,
+      "sha256": "59459f464df52ee9a34c4222b3cdeb4bc89a726b02b228dcec1aa98e6e09c6eb",
+      "mode": "0644"
+    },
+    "assets/fonts/NotoSansSC-OFL.txt": {
+      "size": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2",
+      "mode": "0644"
+    },
+    "assets/fonts/NotoSansSC-Regular.otf": {
+      "size": 8331336,
+      "sha256": "faa6c9df652116dde789d351359f3d7e5d2285a2b2a1f04a2d7244df706d5ea9",
+      "mode": "0644"
+    },
+    "assets/fonts/passport_cjk_16.c": {
+      "size": 3381836,
+      "sha256": "4c13ade22a75b5140da11de1bbf598724107779967c875d9bc7657067a1ea977",
+      "mode": "0644"
+    },
+    "assets/images/home.jpg": {
+      "size": 1131095,
+      "sha256": "74ffe12ad30d58bb152a570125a386e484b18696303e4edcbb4d1f9c40802a5d",
+      "mode": "0644"
+    },
+    "assets/images/logo-wordmark-dark.png": {
+      "size": 109707,
+      "sha256": "88dfdfa1d2c2fff6de80c8f54086816f36fa9b51003ebec6e7da74544d592b69",
+      "mode": "0644"
+    },
+    "assets/images/logo-wordmark.png": {
+      "size": 109489,
+      "sha256": "cff5ab0922b6cf81e7ae809f71d304aad3183368d92d73e5c1b30d3be4463690",
+      "mode": "0644"
+    },
+    "assets/images/logo.png": {
+      "size": 922707,
+      "sha256": "0197b897fd0b24117be7bf73684c0740525ab75d104092fc140fc61bf11d8347",
+      "mode": "0644"
+    },
+    "assets/images/readme-hardware-specs.png": {
+      "size": 1637709,
+      "sha256": "f025ce14fb5881a05d8528d84a4c75c19376f3ddc0f1c45844fdeb6a68f39465",
+      "mode": "0644"
+    },
+    "components/bsp/CMakeLists.txt": {
+      "size": 432,
+      "sha256": "511917f4eb941ff8e5552bab921ffc65c322b090fcf39c052bf2a272267496d9",
+      "mode": "0644"
+    },
+    "components/bsp/idf_component.yml": {
+      "size": 158,
+      "sha256": "a23abb8bf5fe1f86199eb29af4b90b8ed4fc0b8ca5c9aed86a2eca2157f00043",
+      "mode": "0644"
+    },
+    "components/bsp/include/bsp_audio.h": {
+      "size": 2687,
+      "sha256": "5c6107d123b93a79938d043b4a79f22baa347fb6a85f49333f0001138f3bc34d",
+      "mode": "0644"
+    },
+    "components/bsp/include/bsp_battery.h": {
+      "size": 791,
+      "sha256": "27cfce847b9bae784fc089de0f64d60f533e33d96eb5b20e1585ba8b01ca5373",
+      "mode": "0644"
+    },
+    "components/bsp/include/bsp_button.h": {
+      "size": 2521,
+      "sha256": "c489a53f03f57c49479aca0f06d529ceea658705953ce6664c19329623831c08",
+      "mode": "0644"
+    },
+    "components/bsp/include/bsp_display.h": {
+      "size": 2442,
+      "sha256": "fc07ffbeb66ded0ed5a259122aa766d7a8628859d506bad45e86f2548f422d08",
+      "mode": "0644"
+    },
+    "components/bsp/include/bsp_i2c.h": {
+      "size": 1114,
+      "sha256": "0b2e570ca593c4dde791def476c1ab51fcb1cacb122de90fa5b1ff78bd5cc053",
+      "mode": "0644"
+    },
+    "components/bsp/include/bsp_pins.h": {
+      "size": 4837,
+      "sha256": "d1dce1ad85e7a4406099f59e6fb23b32392932683e881b703d072936a63ff9f2",
+      "mode": "0644"
+    },
+    "components/bsp/src/bsp_audio.c": {
+      "size": 21422,
+      "sha256": "1cc4977cd9352806c8cf95ec0348220737645fd5d2cf42195a2564aa5d3090c3",
+      "mode": "0644"
+    },
+    "components/bsp/src/bsp_battery.c": {
+      "size": 7899,
+      "sha256": "54d8cf15e538d447e4750a2415911e9006742d299ac5d47b062957ae9ea1b7d6",
+      "mode": "0644"
+    },
+    "components/bsp/src/bsp_button.c": {
+      "size": 10505,
+      "sha256": "dc6fc3b12e57f85e0726101db878b1085a929a2fdb34ad0f68f8d5c9583399e1",
+      "mode": "0644"
+    },
+    "components/bsp/src/bsp_display.c": {
+      "size": 11864,
+      "sha256": "3fe74309d2297bd5e321228eb45b2f7c4392d28d5b7110e9241ba179ba69d868",
+      "mode": "0644"
+    },
+    "components/bsp/src/bsp_display_lvgl.c": {
+      "size": 5398,
+      "sha256": "3d7b991004d2cbb8b1799e9f44bc74f20fcd4637928b912edbc2072479664fd6",
+      "mode": "0644"
+    },
+    "components/bsp/src/bsp_display_rounding.c": {
+      "size": 2042,
+      "sha256": "06bf1cae13412ba72e976ec6f93dc0891ddd9e676174798fd6bf3ae81f07de90",
+      "mode": "0644"
+    },
+    "components/bsp/src/bsp_display_rounding.h": {
+      "size": 632,
+      "sha256": "4f9debc91f6a6b03f7f963ff0727f0bc1eaeb4023f1d9ea276e24da561e90549",
+      "mode": "0644"
+    },
+    "components/bsp/src/bsp_es8311_sleep_check.c": {
+      "size": 693,
+      "sha256": "ef95e26fab05072d4cc93890b39719de5347084d5da601ef7ce2615fa975f502",
+      "mode": "0644"
+    },
+    "components/bsp/src/bsp_es8311_sleep_check.h": {
+      "size": 566,
+      "sha256": "b2f9c52e17bff40e9c23c9ace051ae47aeb2fca3498400a9982cd18242a2e896",
+      "mode": "0644"
+    },
+    "components/bsp/src/bsp_i2c.c": {
+      "size": 3387,
+      "sha256": "53e6d1dcda8715ef2dfd57134019dadd10aeb5095e24cdac6bec16c2f0c64fbe",
+      "mode": "0644"
+    },
+    "dependencies.lock": {
+      "size": 1950,
+      "sha256": "593fa5027afa40e795c4020e894b7da3603651187f215d4e705524db151362fd",
+      "mode": "0644"
+    },
+    "docs/CHANGELOG.md": {
+      "size": 7030,
+      "sha256": "708bb903f21036769cb673d6e72b3eed89838ff8491e795c3ab7fef8260f3bea",
+      "mode": "0644"
+    },
+    "docs/CHANGELOG.zh_CN.md": {
+      "size": 11118,
+      "sha256": "bea7fa153769712d4c11a1b201241a10d914280a0899e0f61272f4737f851338",
+      "mode": "0644"
+    },
+    "docs/README.md": {
+      "size": 15680,
+      "sha256": "22638230c4ed3f79694ef5d992540aa63c2476c3381f5d2bce134946e31f4b2b",
+      "mode": "0644"
+    },
+    "docs/README.zh_CN.md": {
+      "size": 14215,
+      "sha256": "0bfa3e1a279cb8fa30a17fc008c0476eed190785661bfe88718cbfbceeaa464a",
+      "mode": "0644"
+    },
+    "docs/assets/.gitkeep": {
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mode": "0644"
+    },
+    "docs/brand/README.md": {
+      "size": 6387,
+      "sha256": "0da46afcf31bf91345746d75caf80658f6988e31bf573442bd353e2862d248d6",
+      "mode": "0644"
+    },
+    "docs/brand/README.zh_CN.md": {
+      "size": 5882,
+      "sha256": "ae6d526e85779717bb7d6920fbab5107bba43f4b617fa73d4c1958d421795f8d",
+      "mode": "0644"
+    },
+    "docs/brand/ai-passport-back.webp": {
+      "size": 118180,
+      "sha256": "f7d856c2abe4f373a44343a862dd6de75cb80c858693c31a8c6a35b9b0e2194e",
+      "mode": "0644"
+    },
+    "docs/brand/ai-passport-front-eva-00.png": {
+      "size": 2061120,
+      "sha256": "25cfdaa2a624f8f0a7de7faa2629b006648a622d078cf809b11368b104d8ce37",
+      "mode": "0644"
+    },
+    "docs/brand/ai-passport-front-eva-01.png": {
+      "size": 2057713,
+      "sha256": "f5624dec3c38cbe694e972ddb2b542e66d7ac83aff6b05e1cf31305d619a52e5",
+      "mode": "0644"
+    },
+    "docs/brand/ai-passport-front-eva-02.png": {
+      "size": 2023072,
+      "sha256": "6d38d4c5dc73d35fc33ace2118baefcb33e9ecd9c984e0bca8717e13ff0f0063",
+      "mode": "0644"
+    },
+    "docs/brand/ai-passport-front.png": {
+      "size": 467616,
+      "sha256": "d813ba17e2821ecfff5bb3070605b1960d5c2501bd2c6dcf6e95d9a70be4f122",
+      "mode": "0644"
+    },
+    "docs/brand/ai-passport-views.jpg": {
+      "size": 324433,
+      "sha256": "e945d7870c5f8ea2cbe40a8b8fe09fb68e17b2f88b0b27139e40f97a0b150d5b",
+      "mode": "0644"
+    },
+    "docs/brand/brand-and-product.md": {
+      "size": 4396,
+      "sha256": "4d7e274423353b738c728f5d4280b51c3c6f4f8eeee1d55c8f114a81356d7cdd",
+      "mode": "0644"
+    },
+    "docs/brand/brand-and-product.zh_CN.md": {
+      "size": 7358,
+      "sha256": "5fde3ac6ce4f53ae5051195d6f1e6f43a860da9b49e9cc27d3156c3e1dc4573e",
+      "mode": "0644"
+    },
+    "docs/contribution/README.md": {
+      "size": 728,
+      "sha256": "4873bd22896f725b7a40ef3a7aa1fb11575b58d1dff720f9553caad6774fb4c7",
+      "mode": "0644"
+    },
+    "docs/contribution/README.zh_CN.md": {
+      "size": 975,
+      "sha256": "234f63e1d7f3ecc86c48c2bdda87ff441c0d0869cec7559bd0d5d6c08b2fc897",
+      "mode": "0644"
+    },
+    "docs/contribution/commit-and-pr.md": {
+      "size": 2035,
+      "sha256": "a6ae878c94dfe28a6c721570962872e0233eb44467901bca7322719bcb2a7fbf",
+      "mode": "0644"
+    },
+    "docs/contribution/commit-and-pr.zh_CN.md": {
+      "size": 2137,
+      "sha256": "5b84e80d7536876e3572d92e58e823c5cf998edbc4ba74790ca057d566f16412",
+      "mode": "0644"
+    },
+    "docs/contribution/doc-conventions.md": {
+      "size": 6919,
+      "sha256": "79b7496a8540f42dfb12a8399f548d32e8b6544024ad5c3fd0568ed0199fe791",
+      "mode": "0644"
+    },
+    "docs/contribution/doc-conventions.zh_CN.md": {
+      "size": 7458,
+      "sha256": "ed4b55ecfd7195f4afec75c9b46d6ee2c3c4a0b6b99293b9155f6ddaea89e99c",
+      "mode": "0644"
+    },
+    "docs/development/README.md": {
+      "size": 2515,
+      "sha256": "759f9cf97b005b2a906968a9c7382052e55f6a3f183cc7439bdf31bd97749e37",
+      "mode": "0644"
+    },
+    "docs/development/README.zh_CN.md": {
+      "size": 3342,
+      "sha256": "dbd7c97d506e95ac515403ecce58ccd68fc755a55e087a5de49e694e7cc92413",
+      "mode": "0644"
+    },
+    "docs/development/ai-guide.md": {
+      "size": 9683,
+      "sha256": "0518bccd38c74aaae1c904f07a57dfec961a8c84cbd38645393b51996929a3af",
+      "mode": "0644"
+    },
+    "docs/development/ai-guide.zh_CN.md": {
+      "size": 10057,
+      "sha256": "7e74ebf5664f6363f8e173fb405e8ae95a9369608d33a7648fbd8b8918074120",
+      "mode": "0644"
+    },
+    "docs/development/ci/CI-build-and-release.md": {
+      "size": 5216,
+      "sha256": "7a5d83b060dce9c07eebd17efa449f80edbdf415e6243f9cd8759c20aab8ed0e",
+      "mode": "0644"
+    },
+    "docs/development/ci/CI-build-and-release.zh_CN.md": {
+      "size": 5964,
+      "sha256": "3d9c4714a54e804d02b95f6219bee030b56ff2de3ae3eba284ed66649d8b3336",
+      "mode": "0644"
+    },
+    "docs/development/ci/CI-sync-main.md": {
+      "size": 1385,
+      "sha256": "8ac6dc0cf9702fb1e4ab780b363dfb0db0a40f2227614bd8ecfd5c57fef9d600",
+      "mode": "0644"
+    },
+    "docs/development/ci/CI-sync-main.zh_CN.md": {
+      "size": 2418,
+      "sha256": "6f1c66ddef271dbcd22b8868a3ca95a904b3fec7c7eeb4e6c523a18473e35a06",
+      "mode": "0644"
+    },
+    "docs/development/ci/CI-validation.md": {
+      "size": 2396,
+      "sha256": "b26bab4a5048d1ae93e3090e483657acefa30ca29197ccf028962487b3764265",
+      "mode": "0644"
+    },
+    "docs/development/ci/CI-validation.zh_CN.md": {
+      "size": 2380,
+      "sha256": "c4e85b55446023c78b606653cdfbfb4cf02a521e6480369c0edf229bb4cb1038",
+      "mode": "0644"
+    },
+    "docs/development/engineering/build-and-test.md": {
+      "size": 9218,
+      "sha256": "04399c4bcdaa8e830ebf417d4b1f0a6f67dda3990c738565fa834af2a5c9d7b1",
+      "mode": "0644"
+    },
+    "docs/development/engineering/build-and-test.zh_CN.md": {
+      "size": 8477,
+      "sha256": "cc1a15181f203871e8b1b2b680f6405f4283d5b078d23beb75f7c63660863c1e",
+      "mode": "0644"
+    },
+    "docs/development/engineering/coding-conventions.md": {
+      "size": 9067,
+      "sha256": "66eed3277e5fc981e8b61f188ab73477be2ca4fa74401e32a246dd1529265417",
+      "mode": "0644"
+    },
+    "docs/development/engineering/coding-conventions.zh_CN.md": {
+      "size": 9553,
+      "sha256": "459e29c4880c1db3ab03027507f42cea932e622bfefd5c6fcf28509b9f7c5267",
+      "mode": "0644"
+    },
+    "docs/development/engineering/environment-setup.md": {
+      "size": 21533,
+      "sha256": "d7d7af009608225e3b464859ce3a970e4814a2709c1524f52c112907ad172a45",
+      "mode": "0644"
+    },
+    "docs/development/engineering/environment-setup.zh_CN.md": {
+      "size": 19924,
+      "sha256": "d44e58be674cbab0a19f5f143388906de290e568ab4be7ddce6d999dcbc2bee8",
+      "mode": "0644"
+    },
+    "docs/development/engineering/firmware-layout.md": {
+      "size": 3766,
+      "sha256": "65227e3de014306357e50099a0ba6c55705098af626f5e02f8ee0f2de417b834",
+      "mode": "0644"
+    },
+    "docs/development/engineering/firmware-layout.zh_CN.md": {
+      "size": 3305,
+      "sha256": "c58d536248f351c12fc14869b5898c7dd536b336542416b4164d934e88cc7ccd",
+      "mode": "0644"
+    },
+    "docs/development/engineering/game-demo-to-device-acceptance.md": {
+      "size": 11060,
+      "sha256": "1c88999327a727c0e4932878c9ef983cd6e3367e14d609177907420216531060",
+      "mode": "0644"
+    },
+    "docs/development/engineering/game-demo-to-device-acceptance.zh_CN.md": {
+      "size": 9817,
+      "sha256": "c33a082cf6eea503f84e402cf78c330744d53a44b8d838b4af67144cab215569",
+      "mode": "0644"
+    },
+    "docs/development/engineering/lvgl-chinese-fonts.md": {
+      "size": 12679,
+      "sha256": "37ee7221ce19e1145018ebb03059dc8399bfe556494274dee186102121068d0e",
+      "mode": "0644"
+    },
+    "docs/development/engineering/lvgl-chinese-fonts.zh_CN.md": {
+      "size": 11500,
+      "sha256": "6258dd601d9a164a287ce706c0f43d604c14a40699deddd456020dde51952f0a",
+      "mode": "0644"
+    },
+    "docs/development/engineering/wifi-provisioning.md": {
+      "size": 3828,
+      "sha256": "e20ad903a8a40b2539a3cef656178e10f246938fffe0b4397fc7791ce1d3ca27",
+      "mode": "0644"
+    },
+    "docs/development/engineering/wifi-provisioning.zh_CN.md": {
+      "size": 3420,
+      "sha256": "677e236dcc100a7823311ca7518f70338340fcde0e1c83597d81121e929d1d81",
+      "mode": "0644"
+    },
+    "docs/development/release/file-issues.md": {
+      "size": 2845,
+      "sha256": "513df3aeff4aff867da9f2a686257043b8f27a68245b84a9f6430a38a0a7c2bc",
+      "mode": "0644"
+    },
+    "docs/development/release/file-issues.zh_CN.md": {
+      "size": 2491,
+      "sha256": "0b5740e1940cd5e9362399f76010496a4a55ec760b0506cdf3691a3d8bd2b53a",
+      "mode": "0644"
+    },
+    "docs/development/release/project-completion.md": {
+      "size": 18574,
+      "sha256": "f04a7022c188fa2975b4b68572e09e1395a3d72a7baa8e533297843ad7f309a2",
+      "mode": "0644"
+    },
+    "docs/development/release/project-completion.zh_CN.md": {
+      "size": 15667,
+      "sha256": "3a8d1f4674fe61c6e6db3b41e396e96699067d157bae995acbea74a444f48c4c",
+      "mode": "0644"
+    },
+    "docs/development/release/publish-to-community.md": {
+      "size": 5493,
+      "sha256": "531872bdd5e4c40350b4c9066e983ac7a316073ddffa15680653e6c2990e3cda",
+      "mode": "0644"
+    },
+    "docs/development/release/publish-to-community.zh_CN.md": {
+      "size": 4798,
+      "sha256": "749c62d9eae077cc08d4245e9bd8cd58fad7bdbfefa52786756d2df1f50f74b5",
+      "mode": "0644"
+    },
+    "docs/fork-guide.md": {
+      "size": 3654,
+      "sha256": "a7666c40946fd747831dbf8a46d180a0329213e987ac18c94b87022ae39c14a1",
+      "mode": "0644"
+    },
+    "docs/fork-guide.zh_CN.md": {
+      "size": 6456,
+      "sha256": "73fad5bf6203516118ca13910b371ffaa96c1fdf5c4af38edd756ae7cc0f7142",
+      "mode": "0644"
+    },
+    "docs/hardware-design/AI_HARDWARE_DEVELOPMENT_GUIDE.md": {
+      "size": 29606,
+      "sha256": "f34c110732e2be01b15996c18b2b05769163fe9e2b3301f062426560f23038cf",
+      "mode": "0644"
+    },
+    "docs/hardware-design/AI_HARDWARE_DEVELOPMENT_GUIDE.zh_CN.md": {
+      "size": 37215,
+      "sha256": "bf18baa9b53a6be030547e842534e902068a96aba5841ff6eef4d34fc277040c",
+      "mode": "0644"
+    },
+    "docs/hardware-design/README.md": {
+      "size": 1398,
+      "sha256": "1305e4d06debc9581355668e867750f3e006aed1dc616c236d3db6eaf5ee8a32",
+      "mode": "0644"
+    },
+    "docs/hardware-design/README.zh_CN.md": {
+      "size": 1178,
+      "sha256": "d70895dc647433c678438cf8c12917c4dc2f85015270bd9dd65b21f7933a2e17",
+      "mode": "0644"
+    },
+    "docs/hardware-design/specifications.md": {
+      "size": 1229,
+      "sha256": "e5055403dc19c8f3dc1825c5c8ce1cc42a71ccc5653448e6a5bf8ff6c3c7ce7d",
+      "mode": "0644"
+    },
+    "docs/hardware-design/specifications.zh_CN.md": {
+      "size": 1094,
+      "sha256": "993c6a1aaa9867ee8c15c4e8358880d862e067b7e6c08228f340fcd0964e2de9",
+      "mode": "0644"
+    },
+    "docs/reference/README.md": {
+      "size": 17247,
+      "sha256": "5d3171605376a601f6f9aa076c6317e61ec6f3dd3b1d4904d7a1cc94889e166e",
+      "mode": "0644"
+    },
+    "docs/reference/README.zh_CN.md": {
+      "size": 16022,
+      "sha256": "a286290156265f0d6fc1ba7162a9b318ae6f41bef71f159117d9d875eee690c8",
+      "mode": "0644"
+    },
+    "docs/reference/phoenixzhc/ble-xbox-keyboard.md": {
+      "size": 25492,
+      "sha256": "a695778b21af2124864bc3d474cf42ebd838355b85f58bfbfa5021dc94197d2b",
+      "mode": "0644"
+    },
+    "docs/reference/phoenixzhc/ble-xbox-keyboard.zh_CN.md": {
+      "size": 23420,
+      "sha256": "e858e97d31bd5d14b969911f45b4e6cbf010568001760a499636fa6eab73dcb7",
+      "mode": "0644"
+    },
+    "docs/reference/phoenixzhc/network-audio-streaming-and-memory.md": {
+      "size": 5598,
+      "sha256": "fde93c22ffd55e657d5a9b410ac8223a23f28cb39aaa2a8b214c1cfbfbb36dae",
+      "mode": "0644"
+    },
+    "docs/reference/phoenixzhc/network-audio-streaming-and-memory.zh_CN.md": {
+      "size": 5020,
+      "sha256": "3f887d2c8e33bd3b6cbb08bd6fc73dc671c1f4f58ea2226573fd23e04d2202ba",
+      "mode": "0644"
+    },
+    "docs/reference/phoenixzhc/softap-provisioning-and-resource-budget.md": {
+      "size": 6838,
+      "sha256": "2bfc7009eb94778f6007c7a4d4ee0f5c8bbf1f2fa0ea8bc7f5fbb83712a763e2",
+      "mode": "0644"
+    },
+    "docs/reference/phoenixzhc/softap-provisioning-and-resource-budget.zh_CN.md": {
+      "size": 6240,
+      "sha256": "9b9fdab356ad280e57b2e86c57b4bd56c2f158cc0ddb860c29890bcbe6dea6bf",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/adc-ladder-keypad-long-press-misread.md": {
+      "size": 5978,
+      "sha256": "e25fdcfc7d415f744c409d86f41eff6bc496af1f6ee1f34119596e04d6e7e6ab",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/adc-ladder-keypad-long-press-misread.zh_CN.md": {
+      "size": 5337,
+      "sha256": "b3682c8f6e2c695f2f0caad7115642fd5514975bf021b650c3ef31c757155db8",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/asset-pack-field-drift.md": {
+      "size": 3410,
+      "sha256": "438c2cad21bcaa943dfa04e8276b8269968ee618c22bf5a9ade07fcf10b5c3bb",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/asset-pack-field-drift.zh_CN.md": {
+      "size": 3240,
+      "sha256": "0c5fc72b06eab21e34276400d9e575f92d2c4df40eb692e1e64dabbab7163b77",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/asset-pack-name-contract.md": {
+      "size": 4027,
+      "sha256": "f0a61e23b26da59d7489a4771db11c0081f86373956d33007d302801c2e033eb",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/asset-pack-name-contract.zh_CN.md": {
+      "size": 3657,
+      "sha256": "46d131c153039a97e351dcabcaeb18a8943ce77acb5112abe57a7ba20aaaebef",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/asunabi/README.md": {
+      "size": 4547,
+      "sha256": "197d389c2f4ffa7419f3402e1a472bd78dc178da35e1f67a21bdced94a740abf",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/asunabi/README.zh_CN.md": {
+      "size": 4252,
+      "sha256": "3361c6e644f045ca7e89d18b1aebc94c661e26b84c870b4024e2fc256ee9c71f",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/atri-reader/README.md": {
+      "size": 7375,
+      "sha256": "bf089366c6cb57a6a8bf9fe98283999c2bb527e8ebb913c5fb54d655142bd38f",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/atri-reader/README.zh_CN.md": {
+      "size": 6655,
+      "sha256": "e9fbcf19a8e52e417ea464eb4298b5118cd529431318f921145e10accf3784e1",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/audio-compression-trade-offs.md": {
+      "size": 11434,
+      "sha256": "6d47ba313e08564f35a1e61e7711231a64ea4934672bacbcd2d4ddc440df268c",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/audio-compression-trade-offs.zh_CN.md": {
+      "size": 10440,
+      "sha256": "79c58af65491f962914597d7180d5d21e1ea9b4be175c442548ede9415e4ba38",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/ble-active-idle-power.md": {
+      "size": 6032,
+      "sha256": "4a4006ca41d6085e37d49f2da4a1771739c5e9e9bc8621f113055ebc38b18d31",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/ble-active-idle-power.zh_CN.md": {
+      "size": 5350,
+      "sha256": "48bea1b54e81d46cce6e8ba6045398a77e8e5182b3ae641058406838dfbea7fd",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/ble-voice-uplink-and-pairing.md": {
+      "size": 5877,
+      "sha256": "f76d2903b506d23ee23742841a448dac0de9e400d5462c485703ec6cc919e231",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/ble-voice-uplink-and-pairing.zh_CN.md": {
+      "size": 4973,
+      "sha256": "9ee2f9b10fb1c5e30ed825496e41b359866a7b181dc67959c726563c6727783d",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/cjk-line-pitch-from-font-metrics.md": {
+      "size": 3034,
+      "sha256": "811dda57e1656286f0bcc003752385513f1c860dac58feddbb4e52d2ea0026be",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/cjk-line-pitch-from-font-metrics.zh_CN.md": {
+      "size": 2685,
+      "sha256": "a08adec291e50c3423018f102a372345a18f1c8046a66f3464b84fc074a79692",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/connect-four/README.md": {
+      "size": 4031,
+      "sha256": "8393ef2c16aaaffe8f014c6259aea6dfcbf1df4777f46d33a4ee388746a2e19e",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/connect-four/README.zh_CN.md": {
+      "size": 3505,
+      "sha256": "d00af93ef69418f019100f4c05452a3026d4bc2c63a43af7a588303cd6ec1c03",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/deep-sleep-peripheral-power-off.md": {
+      "size": 5678,
+      "sha256": "34ee80b661b0b2c9406311c61376ebfc97e8db3ad1ffc9ef0f67a188b04b2f9c",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/deep-sleep-peripheral-power-off.zh_CN.md": {
+      "size": 5076,
+      "sha256": "82f2f37f45bb1e2c5f0b9e31785dde241f65ece631b46fbbe4bc4479383fac62",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/display-refresh-and-deep-sleep.md": {
+      "size": 4508,
+      "sha256": "9ad4071192d43e957925bb86b98eb4ec087e2b60b79a94438212a2ab0399662b",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/display-refresh-and-deep-sleep.zh_CN.md": {
+      "size": 4134,
+      "sha256": "b49affc3afb19bef0f6c9f3a615dd3e7418a5edea74140c09e913574a63e2487",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/dracu-riot/README.md": {
+      "size": 4494,
+      "sha256": "7e67cc65eb36dc89814d0b59ff48609f7eff97fb3aa9ba3c8636a14f7104641c",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/dracu-riot/README.zh_CN.md": {
+      "size": 3984,
+      "sha256": "9777aaa0b41d2c3373cd3d42ce23ce5d0e91f218fb638f4a7097f134aec3c652",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/eat-what/README.md": {
+      "size": 2013,
+      "sha256": "7c8e2ff707bf02e21ac9a195a5d767d112226af75c0761d080e8104dab0f1cac",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/eat-what/README.zh_CN.md": {
+      "size": 1828,
+      "sha256": "0c5203651d8e2a38ce2a9cfc50110355949178afcc3ff5734a581f5e12e13e5d",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/fap-screenshot-without-frame-buffer.md": {
+      "size": 5168,
+      "sha256": "16ce0f3e30bfdc1c0a64422d9be8ad06155f86d7160d77e84b0629342d802ede",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/fap-screenshot-without-frame-buffer.zh_CN.md": {
+      "size": 4655,
+      "sha256": "de62ee1af1e679a94572e7778436f0ede07f5772d13e11b0a8be27ba6321d442",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/hands-off-auto-advance-modes.md": {
+      "size": 2440,
+      "sha256": "29180da9dccbc6b094363ecbd22c0467098e8496b941813d315b42c0c9e5193a",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/hands-off-auto-advance-modes.zh_CN.md": {
+      "size": 2138,
+      "sha256": "356e9abbdb32a9690beda84f8175d01ca9d868a524b9db48c79653b77884893c",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/idle-power-stages-and-wake-guards.md": {
+      "size": 4535,
+      "sha256": "ffbbfb3805818e7682720f02abdb94d8ea2dc2dab07614358a6b174451706164",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/idle-power-stages-and-wake-guards.zh_CN.md": {
+      "size": 4227,
+      "sha256": "abc8799462bb0ef11a1f640a7c61c08246a7fa13745c5ca65fe7edcc8c6e3772",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/intercom/README.md": {
+      "size": 10046,
+      "sha256": "7076c8f5a6aeaf8e7e9cccd1f46c7de67c8a57055889163c8048f874b6e6806c",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/intercom/README.zh_CN.md": {
+      "size": 8676,
+      "sha256": "278925bcdccbc0b62b9d50d4796a390448277720bdbc5d7023b9a0688d6c385a",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/iram-dram-alias-and-toolchain-pitfall.md": {
+      "size": 4855,
+      "sha256": "75f6f9a700a58d5553f7978fa080a671ef3bb87034f8cfea6754772bbed1e99f",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/iram-dram-alias-and-toolchain-pitfall.zh_CN.md": {
+      "size": 4563,
+      "sha256": "beae7fde2adc6ef0d3d5baabe474370ec2951620b34700504bdd604f6b947e01",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/landscape-rotation-and-deep-sleep-key-wake.md": {
+      "size": 3480,
+      "sha256": "433c1309dd2614f21aeff701706521c20a43250f98258d9a50ac334211ad1cb2",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/landscape-rotation-and-deep-sleep-key-wake.zh_CN.md": {
+      "size": 3089,
+      "sha256": "bf2a8c2f74866ec8908f5aead3119fb02b27562e77f99e0fb2ed1e122a224cc8",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/limelight/README.md": {
+      "size": 6140,
+      "sha256": "70be8a2d9987374c2a8a607e7540970bab2dd33590315549557acb3f8b02859f",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/limelight/README.zh_CN.md": {
+      "size": 5492,
+      "sha256": "61025ad7229d29291da9c09e16d108afb344326174ca8498e700d9caaac608a6",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/linear-page-table-ports.md": {
+      "size": 4959,
+      "sha256": "f9942bf953ecd17c1c691b9bac680c2198285d1cb3b4539c491c2b8530387307",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/linear-page-table-ports.zh_CN.md": {
+      "size": 4336,
+      "sha256": "abbe129171c95ef0a72d79fec553af59dd0f9e3575fca1331535f035e325738d",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/lossless-sprite-compositing-without-psram.md": {
+      "size": 2712,
+      "sha256": "7b9fa2894cbe627f7cdf0444dfcef0222907c7e1d04b9d53ba1d4700510cb9e5",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/lossless-sprite-compositing-without-psram.zh_CN.md": {
+      "size": 2470,
+      "sha256": "9ad35de6139a530bbf5d48d75a327c33da54bdc35a3f7fe4d29e718a31b68523",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/lvgl-cjk-font-subsets.md": {
+      "size": 4516,
+      "sha256": "5328e080d0ebab66941a3c5a5d21566d3425e5f73851505190d9418118758133",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/lvgl-cjk-font-subsets.zh_CN.md": {
+      "size": 4148,
+      "sha256": "c11d97a0a4ca4dd21aaac2772647320b0b3f44f9396d38ce0029f01b4e470e0d",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/lvgl-flush-path-frame-capture.md": {
+      "size": 4246,
+      "sha256": "9f049d7da9d2417427f6edb07f2d8342a06f5b8aa5039f862697f0e8d4a6f259",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/lvgl-flush-path-frame-capture.zh_CN.md": {
+      "size": 3846,
+      "sha256": "810e498eef32e49356d1c72164faff9ad7f9397e9688829a75c8ee4d252998db",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/lvgl-font-format-and-glyph-coverage.md": {
+      "size": 2777,
+      "sha256": "5a1976132798dcf2cad57687f91cbced5df5364d19b495e4512ffb0aa896d3c0",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/lvgl-font-format-and-glyph-coverage.zh_CN.md": {
+      "size": 2563,
+      "sha256": "eb26e505da585fe64bf29c2535da3c88fafeb8ea3d4e3192cbf16d09f13cd138",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/lvgl-pool-and-glyph-coverage.md": {
+      "size": 3115,
+      "sha256": "45c1103b1840ed2fdb2436c9e6de3827bfb745f40ac65ba1ebcc601191817281",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/lvgl-pool-and-glyph-coverage.zh_CN.md": {
+      "size": 2881,
+      "sha256": "33b77fed7d5d599968e56ab771d5289e7e39e8575a607af1b48cbd46456fb33d",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/merged-image-flashing-and-stored-data.md": {
+      "size": 3695,
+      "sha256": "e557e91f1dea094e72b2ea771100faa22ec4dda94d20050e0ae2bf432bc84856",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/merged-image-flashing-and-stored-data.zh_CN.md": {
+      "size": 3289,
+      "sha256": "bb7b23be68f37e7ae5dcd955020c27d225e7036f73eacfab4156f07d11a6b7d8",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/on-device-game-ai-wall-clock-budget.md": {
+      "size": 2629,
+      "sha256": "43784c31ab57b979b1c6468b5638d276f109cb0088e5ab54898978a3d942d95f",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/on-device-game-ai-wall-clock-budget.zh_CN.md": {
+      "size": 2188,
+      "sha256": "7311e0295b4c397d8a3b3db9f15c10e55205fc1b6f2bb756b711fe6e39b48cf0",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/packed-visual-novel-data.md": {
+      "size": 4096,
+      "sha256": "a1551899713c08b036af1c122ca0e03c9c2184c0aaecad6255d56e5596172bc2",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/packed-visual-novel-data.zh_CN.md": {
+      "size": 3699,
+      "sha256": "42b7aa9f77025c3743af99c338f8863462c0e973ad771d5ba447081c3e5082f8",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/packing-a-visual-novel-into-8mb-no-psram.md": {
+      "size": 5549,
+      "sha256": "664760cd098ba99998276792a3a08591dea246cbf63bff0fad6311237920c3a4",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/packing-a-visual-novel-into-8mb-no-psram.zh_CN.md": {
+      "size": 4981,
+      "sha256": "1b60e265983d10243322acbd18477fef94d123304e0e1ddc9e33f3e7f387bac3",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/ported-script-text-cleanup.md": {
+      "size": 2992,
+      "sha256": "bfebf012f7ddce5afb0316083bff02db6554289ac7ea5ce94420850c10fc2a49",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/ported-script-text-cleanup.zh_CN.md": {
+      "size": 2719,
+      "sha256": "55eeebb4bdcec0a210a60687fa4ac5e31a42bfdbdf8fe50978fb8ad6bfe28dd3",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/post-release-follow-up.md": {
+      "size": 3194,
+      "sha256": "cbb4ecf088e4d1c5bf80ce2383ae68827c34eaab07d441b57d0e4c1330dead5c",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/post-release-follow-up.zh_CN.md": {
+      "size": 2648,
+      "sha256": "dfe43540c227f0d8e33ba7b6db1b52c847529d8af6ff32753557386ee075e42c",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/release-artifact-verification.md": {
+      "size": 2608,
+      "sha256": "c13b7ebd9a117713ed02d3c50b59e018357472b46e07337dd8f1e0ef0026ece3",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/release-artifact-verification.zh_CN.md": {
+      "size": 2254,
+      "sha256": "d69d2622cbf211b763fcf7b76db419ea3fba860c67b3d8212c79c6310a1ff59e",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/sanoba-witch/README.md": {
+      "size": 5869,
+      "sha256": "3bfa59dd5cbe11ee8e4401bf31a4727316941f2bcfc29f0cb9f3dfc8f659fdcd",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/sanoba-witch/README.zh_CN.md": {
+      "size": 4786,
+      "sha256": "de2f13d5d0ff2250eda80c6d177279c56730d1d8159141e8397cb44bdfa9f59e",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/saya-no-uta/README.md": {
+      "size": 8114,
+      "sha256": "376cf07fb5d70dbd551df13c125990a025230c77ecf5deed3159fd20ae2c7c02",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/saya-no-uta/README.zh_CN.md": {
+      "size": 8342,
+      "sha256": "f6e3d1286eb429a5d27d73f94255eae7872449bdebc2b3d3b88d9ad9a8de8f20",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/senren-banka/README.md": {
+      "size": 6470,
+      "sha256": "4763a0aa0c9cb2a5b3d1df79395f66de7c96ee62bcadb530f468bcd57bb850de",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/senren-banka/README.zh_CN.md": {
+      "size": 6205,
+      "sha256": "0de5f1899d0fe2a5952a4a683ed02bbb278c8c138ac462c479719e51c42f124e",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/shared-block-buffer-caches.md": {
+      "size": 2613,
+      "sha256": "57e63bb4aafe384bd860ec5a87649ca52fe4c527c0b5ad1c22c8ab18eec8e558",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/shared-block-buffer-caches.zh_CN.md": {
+      "size": 2401,
+      "sha256": "cd2dd5ac3034e0ef6f2f10ace1897dc800175b0b55376803ae93c1d2d5228b42",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/speaker-driven-sprite-cost.md": {
+      "size": 3637,
+      "sha256": "29062bef96a99e1c8b127bfbcb8c447e53789bc5ae75809edcfef5f2ac890bdc",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/speaker-driven-sprite-cost.zh_CN.md": {
+      "size": 3352,
+      "sha256": "d83d71f2f107be0e31c4729f702f61c937913994b9235d7b2a10d71483d89b3d",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/starry-sky-railroad/README.md": {
+      "size": 6327,
+      "sha256": "5162494b5531afc2f2f194459db4334e40786f920d7db645ae0034fb2a13c545",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/starry-sky-railroad/README.zh_CN.md": {
+      "size": 5807,
+      "sha256": "b8f9d82db478ed4811df0902faeb38ab19ce82a4638d211c8702e785e775aae2",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/three-key-input-event-semantics.md": {
+      "size": 2542,
+      "sha256": "a75d24af68b3e4d3b799c638b5ea770fdb126d74c88c528d418aec601d55318f",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/three-key-input-event-semantics.zh_CN.md": {
+      "size": 2382,
+      "sha256": "129c0dfd58ff752cd917f0813a60639bca4fe289b33df76024899eb88614f20f",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/three-key-reader-interaction.md": {
+      "size": 3661,
+      "sha256": "03f87cb8c63aa8a5b2ecea7ff05e522b10d7ab3f2f1393412a99b51def8cf613",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/three-key-reader-interaction.zh_CN.md": {
+      "size": 3237,
+      "sha256": "08da2161428cdbbfd69a8a62177a153da793bbb8a32a5d6661633e019b9660c7",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/two-device-ble-link.md": {
+      "size": 8768,
+      "sha256": "206503b7e696ac78339332ddbcf82635a3417411d88b003644580c151e859757",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/two-device-ble-link.zh_CN.md": {
+      "size": 7812,
+      "sha256": "27a9ea151a1881cda6574c70f3fc5848859d78751f02ae8d8ad431ca356ffb5f",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/visual-novel-story-graph-verification.md": {
+      "size": 3440,
+      "sha256": "4bc5b0555fa5605bb0fb05e5d313ce88f3ff6897dcebab4926784412db87c939",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/visual-novel-story-graph-verification.zh_CN.md": {
+      "size": 3081,
+      "sha256": "f8254acee5beb3f9531fcd0da55b0a971f99cbd988e099e74bc86c3b9cf7d337",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/vn-script-pack-budget-and-failure-modes.md": {
+      "size": 7092,
+      "sha256": "d619de539f20570ecc6f1430f91034ea4838d7e822e95b300a32cade067d8199",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/vn-script-pack-budget-and-failure-modes.zh_CN.md": {
+      "size": 5961,
+      "sha256": "377625d08aacff4c479f2555dfeb7faf52ee298b137ba82c7c32c68fae196cae",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/voice-keychain/README.md": {
+      "size": 2251,
+      "sha256": "b9584c5d65e41c06e3c108cefb5910e887b7eb6a168019398737f9ca2bf24bd5",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/voice-keychain/README.zh_CN.md": {
+      "size": 2154,
+      "sha256": "a1b2466c0df5241be33aa911ea04250b1c0cdfb23e69687a4f4bc046b9800010",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/voice-keychain/voice-guide.md": {
+      "size": 3413,
+      "sha256": "d585e1b46877cb6d049eb1e487920fae8dcaa54edb559e7c88d8e7758dbe1ce3",
+      "mode": "0644"
+    },
+    "docs/reference/shinku-chen/voice-keychain/voice-guide.zh_CN.md": {
+      "size": 3076,
+      "sha256": "6fcdebe1781ce46d472467b88ab632497dad4a6544faafd91d3423ec74032451",
+      "mode": "0644"
+    },
+    "docs/reference/starsms007/faraway/README.md": {
+      "size": 5834,
+      "sha256": "791c61b37a6c07f16b696922863d56972e48cf0ff925614f050cb0fa3f548954",
+      "mode": "0644"
+    },
+    "docs/reference/starsms007/faraway/README.zh_CN.md": {
+      "size": 4918,
+      "sha256": "745100bd362321522d6df22fedb165767882b53795f6e022ab405f73a7443dc6",
+      "mode": "0644"
+    },
+    "docs/reference/starsms007/lvgl-pool-budget-without-psram.md": {
+      "size": 7296,
+      "sha256": "c6c8f38a76268aa3966307172c6cffd8d93ad3b13b624eb0c8f186316aaa8e2a",
+      "mode": "0644"
+    },
+    "docs/reference/starsms007/lvgl-pool-budget-without-psram.zh_CN.md": {
+      "size": 6812,
+      "sha256": "193987f28bafe09a6d3c389200b24fcbadf999ab74b794d64bd00322a7e7f230",
+      "mode": "0644"
+    },
+    "docs/reference/sunny0826/offline-pokedex/README.md": {
+      "size": 2858,
+      "sha256": "e20198ce6da8f0f603a8b971843a944205857719f31edc0155082e7d3ebc82a7",
+      "mode": "0644"
+    },
+    "docs/reference/sunny0826/offline-pokedex/README.zh_CN.md": {
+      "size": 2548,
+      "sha256": "0c803ce0c69bc9cfc632a72ce3dcb9aa6759889d6cd29308418cdfc87fc8a563",
+      "mode": "0644"
+    },
+    "docs/reference/y2lin/meter-ui-smoothing-and-layout.md": {
+      "size": 4558,
+      "sha256": "00d1d6c2539b2171bf6dcb0abebe86d4770ea6c3161d4c6202143ba037958144",
+      "mode": "0644"
+    },
+    "docs/reference/y2lin/meter-ui-smoothing-and-layout.zh_CN.md": {
+      "size": 4052,
+      "sha256": "a41976675495e02bbdbefa0626e2dc0c1d7ce0dc724c11e0f162c72abeb7c37d",
+      "mode": "0644"
+    },
+    "docs/reference/y2lin/serial-screenshot-protocol.md": {
+      "size": 6264,
+      "sha256": "90ff0493f8fc3692ae8f3134d9fa67202eb620c5a4df31d14c59bf52d2e84573",
+      "mode": "0644"
+    },
+    "docs/reference/y2lin/serial-screenshot-protocol.zh_CN.md": {
+      "size": 5690,
+      "sha256": "01f5bfe32a1c4088e5aece652f9ba62fa044815969927f045422c08bcf368123",
+      "mode": "0644"
+    },
+    "main/CMakeLists.txt": {
+      "size": 425,
+      "sha256": "9054ab70d9b5b202d5a7575e3b6c8d4e2673c3cdb625d3c58d6e22c556347e57",
+      "mode": "0644"
+    },
+    "main/demo.h": {
+      "size": 1888,
+      "sha256": "cdacc817c4d830156de7de5eb7a3bb87bec69aa99c6ace085c1a27182f2493ab",
+      "mode": "0644"
+    },
+    "main/demo_audio.c": {
+      "size": 7475,
+      "sha256": "cf6f29b331ed0c2741f6e76452bf039071ecd117bbb3abb787163e038f388bba",
+      "mode": "0644"
+    },
+    "main/demo_battery.c": {
+      "size": 2005,
+      "sha256": "ec79cdde7f13dba78de0c69bded01d9e05fdb036a754816a5ae1832fc7ca1937",
+      "mode": "0644"
+    },
+    "main/demo_ble.c": {
+      "size": 7644,
+      "sha256": "ac043122d2fcedd570574ddea6b32acc7a86302513dbb731a447d9e9577849b8",
+      "mode": "0644"
+    },
+    "main/demo_button.c": {
+      "size": 2790,
+      "sha256": "269c0113644f5816b167abfcc0c758fc9ad54d62507ead1de518c53c76d647bc",
+      "mode": "0644"
+    },
+    "main/demo_display.c": {
+      "size": 2512,
+      "sha256": "9e73088bca20806e39476d2c96845a1bb89828844a31715723dccfd2a7fa4f19",
+      "mode": "0644"
+    },
+    "main/demo_low_power.c": {
+      "size": 13309,
+      "sha256": "44f6d066cb151d2e37312b78ebcf1ca2b9bfc3b7ddbb5efc0de94c397b092e8b",
+      "mode": "0644"
+    },
+    "main/demo_navigation.c": {
+      "size": 1571,
+      "sha256": "1c53baeddaa39f5f092c268f3e841c8ee07e3593f5fd8cff136fd44a98c848d2",
+      "mode": "0644"
+    },
+    "main/demo_navigation.h": {
+      "size": 941,
+      "sha256": "fd17f283f09ecb050d7a2bf359b6d5a008a392d76fdd68f72a53e8b85d579e6e",
+      "mode": "0644"
+    },
+    "main/demo_radio.c": {
+      "size": 1024,
+      "sha256": "a45fdfc1b71f64ea01603766e6d6375047356bf00fe97b2557b6b3d018128f97",
+      "mode": "0644"
+    },
+    "main/demo_radio.h": {
+      "size": 302,
+      "sha256": "924a7c49ddc6075785b62bd574c89658d0d65b5c9a17186a98fe66e0e98b42ba",
+      "mode": "0644"
+    },
+    "main/demo_wifi.c": {
+      "size": 7104,
+      "sha256": "dfa2e90caafecef60a8fc604c9f28fb8d49ca9ecad12eee8cfca02eb5bc5deb9",
+      "mode": "0644"
+    },
+    "main/key_guard.h": {
+      "size": 2130,
+      "sha256": "cc4c2c14d50fe5b8d1aa3ac55f148fddeea9f1f69a7ca51c3f666497182377de",
+      "mode": "0644"
+    },
+    "main/main.c": {
+      "size": 11226,
+      "sha256": "77e7ed507b85e202882f66c5d39fec5b7c3245fc4dbe896b5c0a1577bde6239c",
+      "mode": "0644"
+    },
+    "main/ui_pixel.c": {
+      "size": 5036,
+      "sha256": "0065505661cd05eeb88fdde5263395e20b959b7d86886575633d1344d1a3ed58",
+      "mode": "0644"
+    },
+    "main/ui_pixel.h": {
+      "size": 835,
+      "sha256": "510d8f68020eb8489d469288daafb8f4b9e2bc622320f949bbaca3d49658fca9",
+      "mode": "0644"
+    },
+    "main/ui_pixel_math.c": {
+      "size": 342,
+      "sha256": "7f3472149b4eb1a088e78e6bd2d1e9fdb2fbb2558087cb50cd3195d71dfdb68f",
+      "mode": "0644"
+    },
+    "main/ui_pixel_math.h": {
+      "size": 124,
+      "sha256": "f86483a7d7bb700ad05154a3173ebb2ae6263e12defcd040f59edf8ef491b3b0",
+      "mode": "0644"
+    },
+    "partitions.csv": {
+      "size": 182,
+      "sha256": "950a9b173c54df7b2263e730c41722ef279155a4b6ccb91a17ea7fbb089af3ac",
+      "mode": "0644"
+    },
+    "products/codex-controller/.gitignore": {
+      "size": 143,
+      "sha256": "9423cb0dfd44baa34ad9ca9925d73a5e6a5e70dc4f30f6d733c86385ba2d6813",
+      "mode": "0644"
+    },
+    "products/codex-controller/BUILD_REPORT.md": {
+      "size": 10336,
+      "sha256": "0f5b0d546dd31a48a25db8aec1db63dd0bb6b2aaf772f1c3ac229d59e26c30f6",
+      "mode": "0644"
+    },
+    "products/codex-controller/BUILD_REPORT.zh_CN.md": {
+      "size": 8803,
+      "sha256": "a13c033fbf7e2a8563e06a1f840dfcebfcf4a6283c9a5e3df8306de92b032c98",
+      "mode": "0644"
+    },
+    "products/codex-controller/CMakeLists.txt": {
+      "size": 216,
+      "sha256": "c9ab2ee59341e207ee4821a6ddd1974187080689a094a982d032f6642aaa6d83",
+      "mode": "0644"
+    },
+    "products/codex-controller/HANDOFF.md": {
+      "size": 13838,
+      "sha256": "4d97f61fd4b1990add5b5f33547103ea32cd14488366e8353191374977ca67af",
+      "mode": "0644"
+    },
+    "products/codex-controller/HANDOFF.zh_CN.md": {
+      "size": 11920,
+      "sha256": "4d30d0362085c562055aa501de39241414bb9721cf48e2cc3cab1eb41bede44f",
+      "mode": "0644"
+    },
+    "products/codex-controller/PROTOCOL.md": {
+      "size": 5734,
+      "sha256": "009b2a9d753173af881ba8fdd27d209504290ed23d9992c7efaccae0607dc809",
+      "mode": "0644"
+    },
+    "products/codex-controller/PROTOCOL.zh_CN.md": {
+      "size": 4853,
+      "sha256": "d5a5ad0ebab1852aad794de627ff99c5f700912137af5a761bac51c23689e6d2",
+      "mode": "0644"
+    },
+    "products/codex-controller/README.md": {
+      "size": 9850,
+      "sha256": "bd4136b534b2a8a6fabb3534fe3227eb2605944d2e1d0abf11ae17fad27d0b9a",
+      "mode": "0644"
+    },
+    "products/codex-controller/README.zh_CN.md": {
+      "size": 8740,
+      "sha256": "d439a121f3af509a3d767f658c8e64bd65054803bf75676664344c07dfa25755",
+      "mode": "0644"
+    },
+    "products/codex-controller/VALIDATION.md": {
+      "size": 7546,
+      "sha256": "aec6746567893afc8952dc1972f7ffc6b2b8e2d607ee6c6a159c75356d8a5ac2",
+      "mode": "0644"
+    },
+    "products/codex-controller/VALIDATION.zh_CN.md": {
+      "size": 6326,
+      "sha256": "48ebfdf6d9a893e3182197b8128d94283ce51b3a8e1ed761fb22ea3d680ac597",
+      "mode": "0644"
+    },
+    "products/codex-controller/build/firmware/1f15a1fdd07d76de043dbc037e460e2673b86bc4d50e3338a19ca09f98bf45e9/FoloToy-AI-Passport-full.bin": {
+      "size": 1787792,
+      "sha256": "1f15a1fdd07d76de043dbc037e460e2673b86bc4d50e3338a19ca09f98bf45e9",
+      "mode": "0644"
+    },
+    "products/codex-controller/build/firmware/1f15a1fdd07d76de043dbc037e460e2673b86bc4d50e3338a19ca09f98bf45e9/FoloToy-AI-Passport.bin": {
+      "size": 1722256,
+      "sha256": "22b0106c632cf034fbf8210a52d495ce467e2bac5ddb9d19e29e9be38c348226",
+      "mode": "0644"
+    },
+    "products/codex-controller/build/firmware/1f15a1fdd07d76de043dbc037e460e2673b86bc4d50e3338a19ca09f98bf45e9/FoloToy-AI-Passport.elf": {
+      "size": 16871044,
+      "sha256": "730d61dc2b413ac776028ee41467f4d45435118c22cface4feff35a207d6aaf1",
+      "mode": "0644"
+    },
+    "products/codex-controller/build/firmware/1f15a1fdd07d76de043dbc037e460e2673b86bc4d50e3338a19ca09f98bf45e9/FoloToy-AI-Passport.map": {
+      "size": 6619351,
+      "sha256": "c242434ec68123d2506b362970757c3d344b8c432fe400b6985eae055bdf6878",
+      "mode": "0644"
+    },
+    "products/codex-controller/build/firmware/1f15a1fdd07d76de043dbc037e460e2673b86bc4d50e3338a19ca09f98bf45e9/bootloader/bootloader.bin": {
+      "size": 21024,
+      "sha256": "607086e54750ad56346c0ac6bd5f532bfef14b0c119c055db7afa24577886157",
+      "mode": "0644"
+    },
+    "products/codex-controller/build/firmware/1f15a1fdd07d76de043dbc037e460e2673b86bc4d50e3338a19ca09f98bf45e9/flash_args": {
+      "size": 160,
+      "sha256": "39bf7eff3cedd5c363a42fa7ff364be30193e8abe9d9e76d7a0ceab215ccd336",
+      "mode": "0644"
+    },
+    "products/codex-controller/build/firmware/1f15a1fdd07d76de043dbc037e460e2673b86bc4d50e3338a19ca09f98bf45e9/manifest.json": {
+      "size": 1660,
+      "sha256": "28d7ea8bcee4215eca49d9b7957a5599265deffebe72b5c03870403fc1011a6a",
+      "mode": "0644"
+    },
+    "products/codex-controller/build/firmware/1f15a1fdd07d76de043dbc037e460e2673b86bc4d50e3338a19ca09f98bf45e9/partition_table/partition-table.bin": {
+      "size": 3072,
+      "sha256": "420931e3f5af072d899b5357c043fd9f283bf165fc9df6113b6d43d82b48a06d",
+      "mode": "0644"
+    },
+    "products/codex-controller/dependencies.lock": {
+      "size": 2329,
+      "sha256": "2a01d2289cb85956733c87bfe587522d901cec265ee67c7e97a90b87ccc887ff",
+      "mode": "0644"
+    },
+    "products/codex-controller/desktop/Cargo.lock": {
+      "size": 123068,
+      "sha256": "ea7795092d45e33c3197f9dcf35236d0c123da1b3fc49863e58bcc7cf72f8be0",
+      "mode": "0644"
+    },
+    "products/codex-controller/desktop/Cargo.toml": {
+      "size": 829,
+      "sha256": "2090c7068c85845503a8959c7e2adbe43d2c568c839009cb6e832592769beb6d",
+      "mode": "0644"
+    },
+    "products/codex-controller/desktop/src/audio.rs": {
+      "size": 18578,
+      "sha256": "5a0b8a092e7f9a911da471a23c75d792ec01cb37d666b3f473fa66fa2311b2f2",
+      "mode": "0644"
+    },
+    "products/codex-controller/desktop/src/bridge.rs": {
+      "size": 18677,
+      "sha256": "38e3653df22e372eeaa5f83bc754034502b30c3b34e82a4d1b0de813a2475394",
+      "mode": "0644"
+    },
+    "products/codex-controller/desktop/src/config.rs": {
+      "size": 5659,
+      "sha256": "bff496847c904b2296244748890a78e916af23cfb8fa583e1b42382b5b33e6f2",
+      "mode": "0644"
+    },
+    "products/codex-controller/desktop/src/connection.rs": {
+      "size": 3729,
+      "sha256": "38e4e37b8fb2e033d72702ef9a1101830d99d109a03a57898a93fbac72bdd33d",
+      "mode": "0644"
+    },
+    "products/codex-controller/desktop/src/logic.rs": {
+      "size": 1645,
+      "sha256": "b79e8ee73584656216ec6b42680f88451cc99916acbfc5ee332deee09abdab1b",
+      "mode": "0644"
+    },
+    "products/codex-controller/desktop/src/main.rs": {
+      "size": 15893,
+      "sha256": "7e935d9b62961d9fe7b0f0117bac06630266beb68177811802d508af32071910",
+      "mode": "0644"
+    },
+    "products/codex-controller/desktop/src/pairing.rs": {
+      "size": 13484,
+      "sha256": "d812ead382bed450ee445b6b73b6e9932cac7da1621934e5fac0b8a592156a7a",
+      "mode": "0644"
+    },
+    "products/codex-controller/desktop/src/wire.rs": {
+      "size": 4684,
+      "sha256": "eea5808d9f4502ead73a1223596fce47aa205c2fa97990889573126f1f86faa4",
+      "mode": "0644"
+    },
+    "products/codex-controller/font-codepoints.json": {
+      "size": 47858,
+      "sha256": "4730c3b33933c4a8227b162103b741c63ac507b0504bf7a8e4ab1a507576325e",
+      "mode": "0644"
+    },
+    "products/codex-controller/font-manifest.json": {
+      "size": 511,
+      "sha256": "7d9db6139aa2447ac5c242045289fe3ea9cd62eaa177e9b14dd5f4e62453dda0",
+      "mode": "0644"
+    },
+    "products/codex-controller/main/CMakeLists.txt": {
+      "size": 392,
+      "sha256": "94a3985e1b1c4a7230e92c0210cfd374bacb5dc61aa17bd9a35dc2ac544dae2f",
+      "mode": "0644"
+    },
+    "products/codex-controller/main/capture.c": {
+      "size": 4423,
+      "sha256": "8e55f08c79975905a0219c0eca0be02fd9f861c2c5f7de91f81e136f3800c8ef",
+      "mode": "0644"
+    },
+    "products/codex-controller/main/controller.c": {
+      "size": 5196,
+      "sha256": "6ad309eb26bca8851cd1ae21b334210171e75ecbf58047b29663e9f64991cbf8",
+      "mode": "0644"
+    },
+    "products/codex-controller/main/controller.h": {
+      "size": 1422,
+      "sha256": "fb5e448b2f85566118895000c86a3757829562fef71e867218dd44b42e088e8a",
+      "mode": "0644"
+    },
+    "products/codex-controller/main/idf_component.yml": {
+      "size": 58,
+      "sha256": "0aca97675ea605e8c4b626a26c05a8c090a7cf7368cc6ca5f9686334f167b8eb",
+      "mode": "0644"
+    },
+    "products/codex-controller/main/link.c": {
+      "size": 14429,
+      "sha256": "b65c9041749497bfe9b7ed14aec2f0a7a8793e04aca828a556f2b4a0eba7a5e7",
+      "mode": "0644"
+    },
+    "products/codex-controller/main/main.c": {
+      "size": 7698,
+      "sha256": "e453fb2260ef56eb9b6f89bb4e9d9ec00e81a0e9dfc6e573e12f2c8bdcde45bd",
+      "mode": "0644"
+    },
+    "products/codex-controller/main/runtime.h": {
+      "size": 997,
+      "sha256": "52a27a3929278e6b68d282a41e059cbfd203eee92f26ac16c4d1e8ce0fe1a3bb",
+      "mode": "0644"
+    },
+    "products/codex-controller/main/screen.c": {
+      "size": 5227,
+      "sha256": "4531291829c53fe08dd0a5b266762cf4e6c0beec59fa9b94d59cc36086fcbc80",
+      "mode": "0644"
+    },
+    "products/codex-controller/main/wire.c": {
+      "size": 3273,
+      "sha256": "db1f6cd1eefdd1f70941a0813b70c70b9ced5f4c8575481bf0e807a567fa1f54",
+      "mode": "0644"
+    },
+    "products/codex-controller/main/wire.h": {
+      "size": 1122,
+      "sha256": "84d53174a078fc05d396a9e9fce07f9af318433831c2a0a90e6867b1fda8e769",
+      "mode": "0644"
+    },
+    "products/codex-controller/sdkconfig.defaults": {
+      "size": 985,
+      "sha256": "a6176fdf4542846aecda7c91f5ec40ee019f601342583b0bf0cc139e5c6540ac",
+      "mode": "0644"
+    },
+    "products/codex-controller/tests/CMakeLists.txt": {
+      "size": 587,
+      "sha256": "a187dc9577b5b90bf22afb6e935407c6bf3f725ea3c586e21f3d1a51a6f16412",
+      "mode": "0644"
+    },
+    "products/codex-controller/tests/test_controller.c": {
+      "size": 6273,
+      "sha256": "230fdeb67f70116edcc0637ddd8cd3d75180ed6b746201bc05d2b54a1dbf989a",
+      "mode": "0644"
+    },
+    "products/codex-controller/tests/wire-vectors.txt": {
+      "size": 301,
+      "sha256": "de77570f8dfb794b36c50113f39167afa85a5d3052d9395ce2440aba2c1cf8c9",
+      "mode": "0644"
+    },
+    "products/codex-controller/tools/Info.plist": {
+      "size": 826,
+      "sha256": "d9351827395c9869bef9b4b8cf91e09e86baeae646bdc14d2f27427f96da007b",
+      "mode": "0644"
+    },
+    "products/codex-controller/tools/build-desktop.ps1": {
+      "size": 322,
+      "sha256": "efa42970e5fb7be0e8d2a2d4bf5637fa835fa5525ff486d200783279683ef341",
+      "mode": "0644"
+    },
+    "products/codex-controller/tools/build-macos.sh": {
+      "size": 426,
+      "sha256": "da781e56d6625ad07f4af58e7b61b6472bf040095fc6f6fb2420e601a4d2f604",
+      "mode": "0755"
+    },
+    "products/codex-controller/tools/generate_fonts.py": {
+      "size": 3357,
+      "sha256": "21b7b0fd8ad740ea78d680d88c83bb69a34e5b1777310b901b44189c25562e48",
+      "mode": "0644"
+    },
+    "products/codex-controller/tools/package-desktop.py": {
+      "size": 3809,
+      "sha256": "ae035b65c9cd6fd7ad33c67610c620bd353ef058af294eb445a50718f3b2c2af",
+      "mode": "0644"
+    },
+    "products/codex-controller/tools/package-firmware.py": {
+      "size": 2647,
+      "sha256": "275c1ef8034275facf2e92814660ed11a2244fe247f6a725c24ab53f04ac9e67",
+      "mode": "0644"
+    },
+    "products/codex-controller/tools/package-handoff.py": {
+      "size": 7228,
+      "sha256": "e6ac3dbd45e96c7597131f4b99186d867d9ded8c46bd519e4e806d543a9bef64",
+      "mode": "0644"
+    },
+    "products/codex-controller/tools/package.json": {
+      "size": 156,
+      "sha256": "571a7a594caa951fccb020747d5617015c45c8172035483d3efb32134fc4e9e0",
+      "mode": "0644"
+    },
+    "products/codex-controller/tools/pnpm-lock.yaml": {
+      "size": 557,
+      "sha256": "d0d7adb72e5bb2bf061301a0a449826b3cf2e41d9a08962f483b2906d8546811",
+      "mode": "0644"
+    },
+    "products/codex-controller/tools/source-gate.py": {
+      "size": 2549,
+      "sha256": "17926cc77472cc0bb7430b8d69d288ca1931652060a335eeb8f8f5357d6350df",
+      "mode": "0644"
+    },
+    "products/codex-controller/tools/test-host.ps1": {
+      "size": 1250,
+      "sha256": "ab19ce0b3e3d4840b7b5d61979a5642529df46da7a9e51b85bb2e0ce1a8fceca",
+      "mode": "0644"
+    },
+    "products/codex-controller/tools/validate.py": {
+      "size": 2131,
+      "sha256": "842a63d01bd79061a4cca29ff3a832b1228c6a856541639dc3cece53c8656065",
+      "mode": "0644"
+    },
+    "sdkconfig.defaults": {
+      "size": 1726,
+      "sha256": "d08b0fd10dbac18035ca37181615e2f10a8b92562a58bc07124afc7c3b007839",
+      "mode": "0644"
+    },
+    "skills/README.md": {
+      "size": 4742,
+      "sha256": "6b4209af1740a1cb18e6a7ea320572afede046bd9e5fa617530fb90a75ac51f8",
+      "mode": "0644"
+    },
+    "skills/README.zh_CN.md": {
+      "size": 4620,
+      "sha256": "be6e088e5ba3c29b06d215138fe4372d644a504a01698185bceea7e832fc46a6",
+      "mode": "0644"
+    },
+    "skills/experience-pr/SKILL.md": {
+      "size": 8112,
+      "sha256": "646dfc68c8ee5dc385fc27268a6273785b08dc37ea5a0742b26b193e3bd8b331",
+      "mode": "0644"
+    },
+    "skills/experience-pr/SKILL.zh_CN.md": {
+      "size": 7127,
+      "sha256": "c3d6646fb4fa2e02df2bf3628f64d67cd83da1265eea3d40c2a2e2adc12a1082",
+      "mode": "0644"
+    },
+    "skills/issue-suggestions/SKILL.md": {
+      "size": 4488,
+      "sha256": "d90992a7347af1013dbff9caf2cf19c99a06447bb9c6dc017dc34e5026cb631b",
+      "mode": "0644"
+    },
+    "skills/issue-suggestions/SKILL.zh_CN.md": {
+      "size": 3889,
+      "sha256": "c88b63a848d333ae1836444af98e388040f587ad29cb0287a6a0e3af9fc4d733",
+      "mode": "0644"
+    },
+    "skills/passport-build/SKILL.md": {
+      "size": 3586,
+      "sha256": "58663d26d30f6645593264433d1e7d9603b18fd609f11a03e00c8752ef5fa5fc",
+      "mode": "0644"
+    },
+    "skills/passport-build/SKILL.zh_CN.md": {
+      "size": 3067,
+      "sha256": "58a5b38e1518b6bad32af2ab063caa9bb2a244220132222673ffdb0f55c756b6",
+      "mode": "0644"
+    },
+    "skills/passport-debug/SKILL.md": {
+      "size": 3683,
+      "sha256": "03101fba51a68bfce4c6d67e6072ccc8ff64f9ce252532b06fb451f358cd7956",
+      "mode": "0644"
+    },
+    "skills/passport-debug/SKILL.zh_CN.md": {
+      "size": 3235,
+      "sha256": "533b525739bf3e5df430ba5c9d13ab8a9df75945eb0dbb384c208e9fa4bde723",
+      "mode": "0644"
+    },
+    "skills/passport-develop/SKILL.md": {
+      "size": 4603,
+      "sha256": "43fd1f4e2605dbc1a87dec2fcce058d10253b17a6b67fd847e8a894a9808eefa",
+      "mode": "0644"
+    },
+    "skills/passport-develop/SKILL.zh_CN.md": {
+      "size": 3914,
+      "sha256": "ccec14bd0194194c103240ff35736535ed08d9fdd6d3b41f53116018b290bb36",
+      "mode": "0644"
+    },
+    "skills/passport-device-test/SKILL.md": {
+      "size": 3973,
+      "sha256": "eb86ab9c6370b8bf94b522e10ede422d358533a7973baecf846ea2e7ff1f6f5d",
+      "mode": "0644"
+    },
+    "skills/passport-device-test/SKILL.zh_CN.md": {
+      "size": 3488,
+      "sha256": "db9158f98d66beb837534c18b52d75a60241294ec07a392d35830d5177c6c1de",
+      "mode": "0644"
+    },
+    "skills/passport-setup/SKILL.md": {
+      "size": 3397,
+      "sha256": "7ec54376c728dccdfcb8bdef53e589b179c5709c2b2f56af32ed87502600a15f",
+      "mode": "0644"
+    },
+    "skills/passport-setup/SKILL.zh_CN.md": {
+      "size": 2886,
+      "sha256": "4516e87661be824bac790616ef364fbab729f48601e4c3af021960a9d3713325",
+      "mode": "0644"
+    },
+    "skills/plays-archive/SKILL.md": {
+      "size": 6821,
+      "sha256": "ef9439a3946271f9f90ae57c5f2517c81b3578b7a855ca7ed3e340d044b8af5b",
+      "mode": "0644"
+    },
+    "skills/plays-archive/SKILL.zh_CN.md": {
+      "size": 5894,
+      "sha256": "e4ceb33e4ab14231e348aac51cc6d2590edc106e612b2e8d5960245263667f15",
+      "mode": "0644"
+    },
+    "skills/validation.md": {
+      "size": 4869,
+      "sha256": "739f19a4ef167b9838921f0a1cb661136febd8d4a56dc366b233c9dcd802704d",
+      "mode": "0644"
+    },
+    "skills/validation.zh_CN.md": {
+      "size": 4048,
+      "sha256": "cb01c1176143e4194b4d16ce92316983a18da2c7410738c6cf7bc8e49c83c055",
+      "mode": "0644"
+    },
+    "tests/audio_stubs/bsp_i2c.h": {
+      "size": 89,
+      "sha256": "dd42f7219e4761fe0198de71c775d16000fcdcca5cbb57bf5dcaac9e1e6e97e9",
+      "mode": "0644"
+    },
+    "tests/audio_stubs/driver/gpio.h": {
+      "size": 326,
+      "sha256": "ce4dda29dc63101c2e80f80476a5b1d5f6d1ba3b95dab4a9e25e01cdb69c0e9c",
+      "mode": "0644"
+    },
+    "tests/audio_stubs/driver/i2c_types.h": {
+      "size": 33,
+      "sha256": "5f562a0418ab2b51d307c3ba02b848bd1ec7d537e18cc70c86fa082815e9b357",
+      "mode": "0644"
+    },
+    "tests/audio_stubs/driver/i2s_std.h": {
+      "size": 1257,
+      "sha256": "e29cdacb45b4013e7ecdf0da6bb246fdc9319729b65441baf69283ba3f6d513e",
+      "mode": "0644"
+    },
+    "tests/audio_stubs/driver/spi_master.h": {
+      "size": 13,
+      "sha256": "b3adf106d95b8934f690943f2921308b90be5b766c4c8ba250c792de56400201",
+      "mode": "0644"
+    },
+    "tests/audio_stubs/es8311_codec.h": {
+      "size": 430,
+      "sha256": "4119b7ce580c2ce83819dbbd860d0bab5b08ed3d9a77e8f95a816f4ad28d2192",
+      "mode": "0644"
+    },
+    "tests/audio_stubs/esp_codec_dev.h": {
+      "size": 2606,
+      "sha256": "8f62e035d162c16780ce811b0e58588141b5d00c4957f779efa764995d8d6a4a",
+      "mode": "0644"
+    },
+    "tests/audio_stubs/esp_codec_dev_defaults.h": {
+      "size": 703,
+      "sha256": "6b677e3e17d7bb4aacba8202f979ca650fd1ce872975ad8f4a24fa1f27322007",
+      "mode": "0644"
+    },
+    "tests/audio_stubs/esp_err.h": {
+      "size": 301,
+      "sha256": "4a861f45ac1f9816875c22148700228debd3bb2a4684cec3c5765a994cfd4476",
+      "mode": "0644"
+    },
+    "tests/audio_stubs/esp_log.h": {
+      "size": 152,
+      "sha256": "7cff275b0fb2528d212296f529f1717ddbc47a02106b3394ea55b68858154c76",
+      "mode": "0644"
+    },
+    "tests/audio_stubs/freertos/FreeRTOS.h": {
+      "size": 44,
+      "sha256": "0ccb47032f5fd0b9ddbd24467031540872bcf1ce7735888031243cd70e87fb82",
+      "mode": "0644"
+    },
+    "tests/audio_stubs/freertos/task.h": {
+      "size": 76,
+      "sha256": "cfce6f1ddec6333fd1ac2f44a32bc43c6b13d3414d1f0b8506f2119b12078a46",
+      "mode": "0644"
+    },
+    "tests/audio_stubs/hal/adc_types.h": {
+      "size": 13,
+      "sha256": "b3adf106d95b8934f690943f2921308b90be5b766c4c8ba250c792de56400201",
+      "mode": "0644"
+    },
+    "tests/bsp_stubs/driver/gpio.h": {
+      "size": 716,
+      "sha256": "5089763e0da1c45983f410ab8be066f3b805a5a7e6c690cea0b8fa2696f3302a",
+      "mode": "0644"
+    },
+    "tests/bsp_stubs/driver/i2c_types.h": {
+      "size": 33,
+      "sha256": "5f562a0418ab2b51d307c3ba02b848bd1ec7d537e18cc70c86fa082815e9b357",
+      "mode": "0644"
+    },
+    "tests/bsp_stubs/driver/spi_master.h": {
+      "size": 33,
+      "sha256": "afe1b66190fb0645cb1738ffaa460bbba9c9abdfbdd27808efedd854e7f3ecfc",
+      "mode": "0644"
+    },
+    "tests/bsp_stubs/esp_adc/adc_cali.h": {
+      "size": 133,
+      "sha256": "257c3cd9a1b7f7d9f4b226f5540d7f109255b64924ea96035ce28a1bdbc7de22",
+      "mode": "0644"
+    },
+    "tests/bsp_stubs/esp_adc/adc_cali_scheme.h": {
+      "size": 320,
+      "sha256": "d06e4898b2c5d7f7f65b4afc33d2d26eaf3b5c37609dac27522484273c4ce656",
+      "mode": "0644"
+    },
+    "tests/bsp_stubs/esp_adc/adc_oneshot.h": {
+      "size": 557,
+      "sha256": "6325b2cf85cd1c56b8e89a0ec1b4ff48d0ce64eef639263d3120fc780e4f3de2",
+      "mode": "0644"
+    },
+    "tests/bsp_stubs/esp_err.h": {
+      "size": 263,
+      "sha256": "bb0a8eecd697a60208e93c792bfb81a8530bed86ac66c5fa2754ef8c3208f962",
+      "mode": "0644"
+    },
+    "tests/bsp_stubs/esp_lcd_types.h": {
+      "size": 92,
+      "sha256": "f11a5a5ef9361d4a25425309382ff9b413ed85cf964bf86dbbfb18192f81e4c0",
+      "mode": "0644"
+    },
+    "tests/bsp_stubs/esp_log.h": {
+      "size": 136,
+      "sha256": "d7268d7a655e987309206cb82e0f95438c090e217f7c2d06c0fb048d07f50c10",
+      "mode": "0644"
+    },
+    "tests/bsp_stubs/esp_lvgl_port.h": {
+      "size": 1739,
+      "sha256": "5f10b50c05ed728bcb2f5187ddd461e317116fab48b1f17524e18f37676851a9",
+      "mode": "0644"
+    },
+    "tests/bsp_stubs/esp_timer.h": {
+      "size": 67,
+      "sha256": "82a7c14acf5d1cdcbea1b23bab880c69562da88013adc34ff5f2ae2115fb08d1",
+      "mode": "0644"
+    },
+    "tests/bsp_stubs/freertos/task.h": {
+      "size": 353,
+      "sha256": "20bc9a168bdeb02e6f6d56fbdac60c2bca46438a046134e83cd662d3ece60603",
+      "mode": "0644"
+    },
+    "tests/bsp_stubs/hal/adc_types.h": {
+      "size": 115,
+      "sha256": "091c39bb615cf1c0e8f0fa7ed1ecfe577ac91c9044d5820a2ac2a2b833d50e73",
+      "mode": "0644"
+    },
+    "tests/bsp_stubs/iot_button.h": {
+      "size": 1101,
+      "sha256": "c89db5b2a1d7d99fc224c697c5837faee345f66b942410f27862ee718508d167",
+      "mode": "0644"
+    },
+    "tests/bsp_stubs/sdkconfig.h": {
+      "size": 54,
+      "sha256": "b2c99c05f1c8a516f5a3f194972ce0df80f6c92bd333a3484df0d57fe76c2138",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/bsp_audio.h": {
+      "size": 29,
+      "sha256": "6771ae77b531cc81ce7769299abf2a32a46208e341da4f1b6a29de6959e1bff9",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/bsp_battery.h": {
+      "size": 29,
+      "sha256": "6771ae77b531cc81ce7769299abf2a32a46208e341da4f1b6a29de6959e1bff9",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/bsp_button.h": {
+      "size": 29,
+      "sha256": "6771ae77b531cc81ce7769299abf2a32a46208e341da4f1b6a29de6959e1bff9",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/bsp_display.h": {
+      "size": 29,
+      "sha256": "6771ae77b531cc81ce7769299abf2a32a46208e341da4f1b6a29de6959e1bff9",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/bsp_i2c.h": {
+      "size": 29,
+      "sha256": "6771ae77b531cc81ce7769299abf2a32a46208e341da4f1b6a29de6959e1bff9",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/bsp_pins.h": {
+      "size": 258,
+      "sha256": "5189846b07852dbac32f42f3f075dfde3fe4a87af3141a675506ba92213b8c2a",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/demo_runtime.c": {
+      "size": 10983,
+      "sha256": "21e88bfe5796960096db0582bb118c0e1cdf849cbeaba7b0b142dfd2ba2cf41e",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/demo_test_stubs.h": {
+      "size": 7915,
+      "sha256": "b6f8bdeed681922c2c2e62d14f9ecf250b01fec90ab063d3eec1c18112322d51",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/esp_attr.h": {
+      "size": 29,
+      "sha256": "6771ae77b531cc81ce7769299abf2a32a46208e341da4f1b6a29de6959e1bff9",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/esp_err.h": {
+      "size": 29,
+      "sha256": "6771ae77b531cc81ce7769299abf2a32a46208e341da4f1b6a29de6959e1bff9",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/esp_event.h": {
+      "size": 29,
+      "sha256": "6771ae77b531cc81ce7769299abf2a32a46208e341da4f1b6a29de6959e1bff9",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/esp_log.h": {
+      "size": 29,
+      "sha256": "6771ae77b531cc81ce7769299abf2a32a46208e341da4f1b6a29de6959e1bff9",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/esp_netif.h": {
+      "size": 29,
+      "sha256": "6771ae77b531cc81ce7769299abf2a32a46208e341da4f1b6a29de6959e1bff9",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/esp_sleep.h": {
+      "size": 29,
+      "sha256": "6771ae77b531cc81ce7769299abf2a32a46208e341da4f1b6a29de6959e1bff9",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/esp_system.h": {
+      "size": 29,
+      "sha256": "6771ae77b531cc81ce7769299abf2a32a46208e341da4f1b6a29de6959e1bff9",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/esp_timer.h": {
+      "size": 29,
+      "sha256": "6771ae77b531cc81ce7769299abf2a32a46208e341da4f1b6a29de6959e1bff9",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/esp_wifi.h": {
+      "size": 29,
+      "sha256": "6771ae77b531cc81ce7769299abf2a32a46208e341da4f1b6a29de6959e1bff9",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/esp_wifi_default.h": {
+      "size": 29,
+      "sha256": "6771ae77b531cc81ce7769299abf2a32a46208e341da4f1b6a29de6959e1bff9",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/freertos/FreeRTOS.h": {
+      "size": 29,
+      "sha256": "6771ae77b531cc81ce7769299abf2a32a46208e341da4f1b6a29de6959e1bff9",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/freertos/semphr.h": {
+      "size": 29,
+      "sha256": "6771ae77b531cc81ce7769299abf2a32a46208e341da4f1b6a29de6959e1bff9",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/freertos/task.h": {
+      "size": 29,
+      "sha256": "6771ae77b531cc81ce7769299abf2a32a46208e341da4f1b6a29de6959e1bff9",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/host/ble_gap.h": {
+      "size": 29,
+      "sha256": "6771ae77b531cc81ce7769299abf2a32a46208e341da4f1b6a29de6959e1bff9",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/host/ble_hs.h": {
+      "size": 29,
+      "sha256": "6771ae77b531cc81ce7769299abf2a32a46208e341da4f1b6a29de6959e1bff9",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/host/util/util.h": {
+      "size": 29,
+      "sha256": "6771ae77b531cc81ce7769299abf2a32a46208e341da4f1b6a29de6959e1bff9",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/lvgl.h": {
+      "size": 29,
+      "sha256": "6771ae77b531cc81ce7769299abf2a32a46208e341da4f1b6a29de6959e1bff9",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/nimble/nimble_port.h": {
+      "size": 29,
+      "sha256": "6771ae77b531cc81ce7769299abf2a32a46208e341da4f1b6a29de6959e1bff9",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/services/gap/ble_svc_gap.h": {
+      "size": 29,
+      "sha256": "6771ae77b531cc81ce7769299abf2a32a46208e341da4f1b6a29de6959e1bff9",
+      "mode": "0644"
+    },
+    "tests/demo_stubs/services/gatt/ble_svc_gatt.h": {
+      "size": 29,
+      "sha256": "6771ae77b531cc81ce7769299abf2a32a46208e341da4f1b6a29de6959e1bff9",
+      "mode": "0644"
+    },
+    "tests/test_archive_firmware.py": {
+      "size": 19680,
+      "sha256": "f67a8824f683513cb6c0ee8023b32e97a82e23736d96772a97461fa4e227f1f8",
+      "mode": "0755"
+    },
+    "tests/test_bsp_audio_recovery.c": {
+      "size": 15535,
+      "sha256": "02644bd65beb6579714b65dcdbcd0f2d064aa8c547a7d0d7c8324fd218c7526a",
+      "mode": "0644"
+    },
+    "tests/test_bsp_button.c": {
+      "size": 9708,
+      "sha256": "cf38e74cb2c4028ed4c605da6bd7d5a8b619b717f33a06450f3fd079e4f7cfe7",
+      "mode": "0644"
+    },
+    "tests/test_bsp_display_rounding.c": {
+      "size": 2322,
+      "sha256": "ca76923d1521462f388ead01673645972440a6adeb724fe5efd17a1cd743cfea",
+      "mode": "0644"
+    },
+    "tests/test_bsp_es8311_sleep_check.c": {
+      "size": 1286,
+      "sha256": "d6f81af9b8a966933a28cf074c6698ad80e618bed8b9383d6653282906415f45",
+      "mode": "0644"
+    },
+    "tests/test_bsp_lvgl_init.c": {
+      "size": 3916,
+      "sha256": "3cb427cb6e08062295ef3e9fa31392eb818ae4908e3b6015c745d2622baca7f0",
+      "mode": "0644"
+    },
+    "tests/test_check_repo.py": {
+      "size": 16052,
+      "sha256": "e7ceee9aad51c74a6fa4976b1308a084c06453042cbfe48cefc33f69430d7cef",
+      "mode": "0755"
+    },
+    "tests/test_deep_sleep_contract.py": {
+      "size": 6932,
+      "sha256": "aa7666257b91c247a14957aaffaa3e54483d736fd81a7e74d902b05776838954",
+      "mode": "0755"
+    },
+    "tests/test_demo_audio_runtime.c": {
+      "size": 2120,
+      "sha256": "0f83af2848207db72d43d7293d6a30f0e9a404346673c17fd02faabfa1eacc74",
+      "mode": "0644"
+    },
+    "tests/test_demo_ble_runtime.c": {
+      "size": 2161,
+      "sha256": "136bdeaec14d08eb63dc94d0b082d53deb16453ee0d1d05bd3ceffaf34e8b896",
+      "mode": "0644"
+    },
+    "tests/test_demo_low_power_runtime.c": {
+      "size": 1936,
+      "sha256": "33d9d76f91114d456475a546d3580796b3eb03178f99778a588b492aec185925",
+      "mode": "0644"
+    },
+    "tests/test_demo_navigation.c": {
+      "size": 1327,
+      "sha256": "560d3ca337f82c93f020e7defa3a8e1af4b61585137d415cb10c8672be973aee",
+      "mode": "0644"
+    },
+    "tests/test_demo_wifi_runtime.c": {
+      "size": 3820,
+      "sha256": "14ebb6230c7dbc92db52062da5a42792c99f27874cb4bfe36a3e818962d2edfa",
+      "mode": "0644"
+    },
+    "tests/test_install_passport_skills.py": {
+      "size": 12809,
+      "sha256": "b5c46628858a08541d6d48940a730e7134db4256a39a3e05285c48aad0d8631a",
+      "mode": "0755"
+    },
+    "tests/test_key_guard.c": {
+      "size": 1921,
+      "sha256": "4f3113a4a6d26e9715fca6f654fb8a214229484205f36f6ba8adeb5c61405066",
+      "mode": "0644"
+    },
+    "tests/test_key_wake_contract.py": {
+      "size": 1541,
+      "sha256": "d933bed5c8e19db780d614e047447150fa54bbb409ad4a825a20ca610d612b1b",
+      "mode": "0755"
+    },
+    "tests/test_ui_pixel_math.c": {
+      "size": 470,
+      "sha256": "c65dac3b3de8312a7cdb1f13bfb9ac020af9bb57f331107f781348b73b1ce619",
+      "mode": "0644"
+    },
+    "tests/test_verify_firmware.py": {
+      "size": 14068,
+      "sha256": "5651f0b992be969c9fac57667a168a4c394ac5430d545dff546719a0b654c925",
+      "mode": "0755"
+    },
+    "tools/archive_firmware.py": {
+      "size": 14812,
+      "sha256": "badbb39245dca2e66635d3d72893214a6c767ab420d6e5960a437a2ee2821963",
+      "mode": "0755"
+    },
+    "tools/check_repo.py": {
+      "size": 13088,
+      "sha256": "e3834fd771da370972e2fc97e7a282b597ed37545d1f589b4aff35a5919aec3a",
+      "mode": "0755"
+    },
+    "tools/install-actionlint.sh": {
+      "size": 2148,
+      "sha256": "5d78c57e3bd2bf28747f7efb4141d52070ff494a92d2f1ea5158c1cfc108226c",
+      "mode": "0755"
+    },
+    "tools/install_passport_skills.py": {
+      "size": 6861,
+      "sha256": "f9193acd267868be2acf4032e2efd4cd480a3955d54646502529425520a4b075",
+      "mode": "0755"
+    },
+    "tools/validate.sh": {
+      "size": 4740,
+      "sha256": "048c256e8719a5fa0aca266fe0cae7b9fcf0e227d1c6d0483074263bef2fe7d4",
+      "mode": "0755"
+    },
+    "tools/verify_firmware.py": {
+      "size": 8420,
+      "sha256": "321e7d14ef3b8e05b248a7ce880196081a9265c2d3aec402f89652c108e3cbec",
+      "mode": "0755"
+    }
+  },
+  "excluded": [
+    ".DS_Store",
+    ".agents",
+    ".codex",
+    ".env",
+    ".env.local",
+    ".git",
+    ".idea",
+    ".pnpm-store",
+    ".vscode",
+    "__pycache__",
+    "build",
+    "build-host",
+    "font-source",
+    "managed_components",
+    "node_modules",
+    "sdkconfig",
+    "sdkconfig.old",
+    "target",
+    "Windows binaries/toolchains",
+    "old firmware archives",
+    "raw runtime logs",
+    "user configuration/conversation links",
+    "pairing secrets and recorded speech"
+  ],
+  "manifest_self_hash": "Excluded; verify whole archive with adjacent .sha256"
+}

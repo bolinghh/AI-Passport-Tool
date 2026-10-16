@@ -1,0 +1,11 @@
+/build/
+/build-host/
+/desktop/target/
+/tools/node_modules/
+/tools/font-source/
+/sdkconfig
+/sdkconfig.old
+/managed_components/
+/validation.json
+
+desktop/macos/.build/
